@@ -13,10 +13,17 @@ This paper introduces ImageNet, a large-scale, diverse, hierarchical image datab
 such as Object Recognition, Image Classification and object localization. It uses wordnet as a backbone, and provides dense
 tree-structured subcategories. Imagenet also boasts to contain unprecedented number of examples per category, categories,
 non-overlapping categories.
-
+\par
 To construct the database, the authors first collect vast unclean data from across different search engines, using multiple
 languages, and appending parent words given the class. They clean the dataset using Amazon Mechanical turk by
 asking multiple workers to verify if a given image contains the given object of interest regardless of the artifacts like occlusion,
-multiple objects ,to name a few.
+multiple objects ,to name a few. Each image is considered a positive sample if it satisfies a confidence score that is determined
+dynamically, representing semantic difficulty for that category.
+\par
+The authors show three appplications of Imagenet. The first experiment involving object recognition emphasized importance
+of having a high resolution large clean dataset through demonstration of improved performance using nearest neighbor approach
+compared to noisy, low resolution, limited example settings. The second experiment involving image classification lays its
+focus on importance of dense hierarchical structure of Imagenet and highlighted its importance by showing superior performance
+of classifier that incorporates semantic tree relationship, over a shallow independent classifier. The third 
 
 \end{document}          
