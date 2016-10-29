@@ -10,6 +10,13 @@
 \maketitle
 
 This paper introduces ImageNet, a large-scale, diverse, hierarchical image database as a need for benchmarking robust models, and aiding several critical computer vision tasks, 
-such as Object Recognition, Image Classification and object localization.
+such as Object Recognition, Image Classification and object localization. It uses wordnet as a backbone, and provides dense
+tree-structured subcategories. Imagenet also boasts to contain unprecedented number of examples per category, categories,
+non-overlapping categories.
+
+To construct the database, the authors first collect vast unclean data from across different search engines, using multiple
+languages, and appending parent words given the class. They clean the dataset using Amazon Mechanical turk by
+asking multiple workers to verify if a given image contains the given object of interest regardless of the artifacts like occlusion,
+multiple objects ,to name a few.
 
 \end{document}          
