@@ -1,0 +1,12 @@
+large volumes of online data
+robust models
+structuring issue
+believe "large-scale ontology of images is critical resource for 
+	1. content based image search / understanding algos
+	2. critical training and benchmarking data for such algos
+"
+each concept is quality-controlled, human-annotated
+12 "subtrees"
+Section 2: show that imgnet is large-scale, accurate, diverse db
+Section 4: imgnet can serve as useful resource for OR, IC, OL
+Section 3: AMT 
