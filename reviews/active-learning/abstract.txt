@@ -1,0 +1,6 @@
+1.machine learning algorithm can improve accuracy with fewer training labels if
+allowed to choose data from which it learns.
+2.pose queries in form of unlabeled data instances to be labeled by an oracle
+3.motivated in scenarios of large, unlabeled data
+4.scenarios in which queries can be formulated
+5.overview of query strategy frameworks proposed in literature
