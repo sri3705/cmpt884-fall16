@@ -1,8 +1,0 @@
-image search result accuracy - 10%
-500-1000 images / synset.
-querying several image search engines.
-more images by appending parent class. (eg whippet vs whippet dog)
-more images by querying in different languages
-cleaning by AMT - image set + definition of target synset
-select regardless of occlusions, num objects, scene clutter
-varying consensus voting between different categories

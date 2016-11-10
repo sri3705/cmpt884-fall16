@@ -1,9 +1,0 @@
-hierarchical structure
-scale: 3.2M annotated - 5247 categories
-hierarchy: dense semantic heirarchy - ontology (many categories per subtree)
-diversity: appearances, positions, view points, poses, bg clutter
-diversity measured using average image (more blur - more diversity)
-small image datasets < imagenet - nextgen algo
-tinyimage dataset -> high noise and low resolution images
-ESP -> basic level of semantic hierarchy, dependence on disambiguation, not available to public
-labelme -> outlines provided (not there in Imagenet), not used from internet.
