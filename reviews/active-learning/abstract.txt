@@ -1,0 +1,10 @@
+Large Image set exist in internet
+potentially fosters robust and sophisticated models
+harnessing, storing and interacting large data is a problem
+Imagenet is introduced
+wordnet is backbone
+8000 synsets, 500-1000 images per synset
+shown that imagenet is much larger in scaling and diversity
+AMT based procedure is described
+application in OR, IC, OClustering.
+diverse future applications.
