@@ -1,0 +1,2 @@
+Uncertainity sampling
+1 - argmax(ptheta(y|x))
