@@ -1,0 +1,16 @@
+1. algos for learning with queries.
+2. distill core ideas, methods, and applications that have been considered by ML community.
+3. Active learning - query learning - optimal experiment design
+4. curious learning algo - avoiding hundreds of labeled instances.
+5. getting labels might be hard / expensive
+e.g. speech recognition (much longer labeling time), information extraction (domain knowledge),
+classification (thousands of instance labels).
+
+active learning - few labeled instances as possible - minimizing cost of obtaining data.
+instructional techniques in educational literature.
+
+several strategies/scenarios in which active learners may pose queries - pool based active learning
+(selection from large unlabeled pool), using uncertainity sampling - two examples presented here.
+
+e.g. logistic regression - pool based active learning > random labeling of samples (iid sampling)
+e.g. text classification - pool based active learning > random labeling of samples
