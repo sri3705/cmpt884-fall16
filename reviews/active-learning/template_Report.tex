@@ -2,28 +2,35 @@
 
 
 % Title Page
-\title{Review of "ImageNet: A Large-Scale Hierarchical Image Database"}
+\title{Review of "Active Learning Literature survey"}
 \author{Srikanth Muralidharan}
 
 
 \begin{document}
 \maketitle
 
-This paper introduces ImageNet, a large-scale, diverse, hierarchical image database as a need for benchmarking robust models, and aiding several critical computer vision tasks, 
-such as Object Recognition, Image Classification and Object Localization. It uses wordnet as a backbone, and provides dense
-tree-structured subcategories. Imagenet also boasts to contain unprecedented number of examples per category, categories,
-non-overlapping categories.
+This paper provides a broad introduction to the popular active learning techniques and principles that could be 
+found in the literature. The paper starts with a couple of motivational examples for active learning, follows it up
+with the set of scenarios in which learner could queries, and querying strategies used in active learning. Finally, it presents
+with some emperical and theoretical analysis of active learning methods.
 \par
-To construct the database, the authors first collect vast unclean data from across different search engines, using multiple
-languages, and appending parent words given the class. They clean the dataset using Amazon Mechanical turk by
-asking multiple workers to label a given image contains the given object of interest, combining it through a consensus
-mechanism that modeled semantic difficulty for its category.
+
+The contributions of this paper include useful insights into several of the active learning concepts. The analysis
+they present include:
+
+\begin{itemize}
+	\item {\bf Description and comparison of different query scenarios} The authors provide a clear description of popular
+		querying scenarios, with the key assumptions involved in each of the settings, and some popular examples that employed those 
+		methods.
+	\item {\bf Description of different query strategy frameworks} The authors provide succinct details of commonly used query strategies.
+		The authors first classify the query strategies into distinct non-overlapping categories. They also provide details and comparisons
+		about each of the methods within each category.
+	\item {\bf Emperical and theoretical analysis of active learning} The authors provide some key insights and theoretical analysis to highlight
+		important properties of active learning methods, backed by examples from seminal work done in active learning and some of the established
+		theoretical concepts in machine learning.
+\end{itemize}
 \par
-Towards the end, authors show three appplications of Imagenet. The first application involving  object recognition emphasized importance
-of having a high resolution large clean dataset. The second application involved image classification setting its focus on importance of dense 
-hierarchical structure. The third application involved object localization, demonstrated Imagenet's 
-prospects to be used in benchmarking object detection algorithms.
-\par
+
 In summary, the work provides significant contribution to computer vision research community, with large-scale diverse
 clean dataset, with unprecedented set of object categories related by dense hierarchies. The authors clearly demonstrate
 the effectiveness of having such a dataset through appropriate applications. The comparisons with previous related work
